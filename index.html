@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For Jemi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">for jemi</p>
+      <h1>Open this on your birthday</h1>
+      <p class="subtext">a little jar of folded stars, prayers, and love</p>
+    </header>
+
+    <section class="jar-stage" aria-label="A jar of clickable lucky stars">
+      <img class="rose rose-left" src="assets/rose-purple.png" alt="" />
+      <img class="rose rose-right" src="assets/rose-purple.png" alt="" />
+      <div class="jar" id="jar">
+        <div class="stars-layer" id="starsLayer"></div>
+        <div class="jar-glass"></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="overlay hidden" id="overlay">
+    <article class="paper-strip" id="paperStrip">
+      <button class="close-btn" id="closeBtn">fold it back</button>
+      <img class="opened-star" id="openedStar" src="assets/star-purple-birthday.png" alt="" />
+      <p class="note-label" id="noteLabel"></p>
+      <p class="note-text" id="noteText"></p>
+    </article>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
